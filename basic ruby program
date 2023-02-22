@@ -1,0 +1,24 @@
+puts "Hello, Ruby!"
+a=10;
+b=20;
+
+c=a+b
+d=b-a
+e=b/a
+puts c,d, e
+
+
+puts "Ruby Program"
+
+BEGIN{
+  puts "Initializing Ruby Program"
+}
+
+END{
+  s=19
+  p=15
+
+  z=s+p
+
+  puts  z
+}
